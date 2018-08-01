@@ -10,6 +10,15 @@ This work uses two files from different authors. popup.el and vhdl-goto-def.el i
   :ID:       8bc48c3c-f794-43b6-9912-c53335963338
   :END:
 
+- Copy the popup.el, vhdl-goto-def.el and vhdl-extreme.el files to the load-path.
+- Add these lines to your config file.
+
+#+BEGIN_SRC lisp
+  (require 'popup)
+  (require 'vhdl-goto-def)
+  (require 'vhdl-extreme)
+#+END_SRC
+
 
 * Usage
   :PROPERTIES:
