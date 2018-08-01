@@ -3,7 +3,7 @@
   :ID:       304a75a9-a053-4e38-bee0-d62e34bc5040
   :END:
 
-- This work uses two files from different authors. popup.el and vhdl-goto-def.el is not written by me.
+This work uses two files from different authors. popup.el and vhdl-goto-def.el is not written by me. This work enhances vhdl-goto-def and adds the capability to track defitions in other libraries.
 
 * Installation
   :PROPERTIES:
