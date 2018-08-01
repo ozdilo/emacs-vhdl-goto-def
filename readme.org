@@ -1,0 +1,31 @@
+* References
+  :PROPERTIES:
+  :ID:       304a75a9-a053-4e38-bee0-d62e34bc5040
+  :END:
+
+- This work uses two files from different authors. popup.el and vhdl-goto-def.el is not written by me.
+
+* Installation
+  :PROPERTIES:
+  :ID:       8bc48c3c-f794-43b6-9912-c53335963338
+  :END:
+
+
+* Usage
+  :PROPERTIES:
+  :ID:       ca32502a-e0f4-409b-8c33-49471b938f06
+  :END:
+
+
+- Add a file named .extreme to the top level directory of the source files.
+This file is used to define the library paths.
+#+BEGIN_SRC 
+lib-name : lib-absolute-path
+#+END_SRC
+
+- Call the (goForTheWordUnderPoint) function in order to go to the definition of word under the cursor.
+- Call the (searchForTheWordUnderPoint) function in order to show the definition of word under the cursor in a popup window.
+  
+- The gif file shows the usage on VHDL file from another git repository (https://github.com/sergeykhbr/riscv_vhdl)
+
+[[./output.gif]]
