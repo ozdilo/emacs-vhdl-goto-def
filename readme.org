@@ -4,6 +4,7 @@
   :END:
 
 This work uses two files from different authors. popup.el and vhdl-goto-def.el is not written by me. This work enhances vhdl-goto-def and adds the capability to track defitions in other libraries.
+- I do not guarantee correct usage in all the files. The VHDL parser written for the project is very basic.
 
 * Installation
   :PROPERTIES:
@@ -27,7 +28,7 @@ This work uses two files from different authors. popup.el and vhdl-goto-def.el i
 
 
 - Add a file named .extreme to the top level directory of the source files.
-This file is used to define the library paths.
+This file is used to define the VHDL library paths.
 #+BEGIN_SRC 
 lib-name : lib-absolute-path
 #+END_SRC
@@ -35,6 +36,6 @@ lib-name : lib-absolute-path
 - Call the (goForTheWordUnderPoint) function in order to go to the definition of word under the cursor.
 - Call the (searchForTheWordUnderPoint) function in order to show the definition of word under the cursor in a popup window.
   
-- The gif file shows the usage on VHDL file from another git repository (https://github.com/sergeykhbr/riscv_vhdl)
+- The gif file shows the usage on VHDL files from another git repository (https://github.com/sergeykhbr/riscv_vhdl)
 
 [[./output.gif]]
